@@ -90,9 +90,11 @@ header nav ul li a{
 .top-section,
 .bottom-section {
 	display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
 	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: flex-start;
 }
 
 .main-image img {
